@@ -4,8 +4,8 @@ mapboxgl.accessToken = "pk.eyJ1Ijoic255ZGU2NjQiLCJhIjoiY2w5d3YyZXI4MDE0ejNvcGxrb
 // CREATE A NEW OBJECT CALLED MAP
 const map = new mapboxgl.Map({
   container: "map", // container ID for the map object (this points to the HTML element)
-  style: "mapbox://styles/snyde664/cl9wv4you000v14p54wmfnf24", //YOUR STYLE URL
-  center: [-75.1652, 39.9526], // starting position [lng, lat]
+  style: "mapbox://styles/snyde664/clph4o7rj009b01qr0bfxc5nh", //YOUR STYLE URL
+  center: [48.103627, -90.467481], // starting position [lng, lat]
   zoom: 12, // starting zoom
   projection: "globe", // display the map as a 3D globe
 });
